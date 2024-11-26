@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>33-dars</title>
+  </head>
+  <body class="text-white">
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav text-light_black">
+        <div class="container">
+          <div class="flex items-center justify-between nav-wrapper">
+            <div class="nav__logo">
+              <img src="./assets/icons/logo.svg" alt="" />
+            </div>
+
+            <ul class="hidden ds:flex gap-[30px] items-center nav__links">
+              <li class="nav__links-link">
+                <a href="#">
+                  <span class="text-light_black"> Напрямки </span>
+                </a>
+              </li>
+              <li class="nav__links-link">
+                <a href="#">
+                  <span class="text"> Про компанію </span>
+                </a>
+              </li>
+              <li class="nav__links-link">
+                <a href="#">
+                  <span class="text"> Переваги </span>
+                </a>
+              </li>
+              <li class="nav__links-link">
+                <a href="#">
+                  <span class="text"> Етапи роботи </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="flex gap-[50px] items-center nav__right">
+              <ul class="nav__social-medias hidden tb:flex gap-[15px]">
+                <li class="nav__social-medias-link">
+                  <a href="#">
+                    <img src="./assets/icons/instagramm.svg" alt="" />
+                  </a>
+                </li>
+                <li class="nav__social-medias-link">
+                  <a href="#">
+                    <img src="./assets/icons/facebook.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+              <div class="hidden tb:block phone">
+                <a href="tel:+380 67661 5415" class="flex gap-[7px]">
+                  <div class="phone__phone-icon">
+                    <img src="./assets/icons/phone.svg" alt="" />
+                  </div>
+                  <span class="phone__text"> +380 67661 5415 </span>
+                </a>
+              </div>
+              <div class="block ltb:hidden nav__menu">
+                <img src="./assets/icons/menu.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER -->
+
+    <!-- HERO -->
+    <section
+      class="hero mt-[14.5px] pt-[70px] pb-[124px] tb:mt-[20px] bg-x-56 tb:bg-x-70 ltb:bg-x-80 ds:bg-x-100"
+    >
+      <div class="container">
+        <div
+          class="hero__wrapper text-white flex flex-col items-center tb:w-[537px] tb:mt-[120px] tb:mb-[222px] tb:mx-auto"
+        >
+          <h1
+            class="hero__title uppercase font-[700] text-center leading-[33.6px] text-[28px] tb:text-[56px] tb:leading-[67.2px]"
+          >
+            виробництво меблів
+          </h1>
+          <p
+            class="hero__desc mt-[28px] text-[16px] text-center opacity-[80%] tb:mt-[20px] tb:text-[18px] leading-[27px] font-[500]"
+          >
+            Ми виконуємо комплексне виготовлення корпусних меблів для житлових і
+            комерційних приміщень, забезпечимо Вас якісним меблевим продуктом
+            власного виробництва.
+          </p>
+          <div
+            class="hero__btn mt-[30px] tb:mt-[50px] bg-btn_color inline-block px-[57.5px] py-[22px] font-[700] text-[16px] leading-[16px]"
+          >
+            <a href="#">
+              <span class="hero__btn-text"> Обговорити проект </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO -->
+
+    <!-- osnovni-napryamki -->
+    <section class="osnovni py-[140px] px-auto">
+      <div class="container">
+        <div class="osnovni__wrapper">
+          <h2
+            class="osnovni__title text-center font-[600] text-[36px] leading-[45px] text-black_text"
+          >
+            Основні напрямки
+          </h2>
+          <div
+            class="osnovni__cards mt-[50px] grid items-center grid-cols-1 tb:mt-[85px] gap-y-[60px] tb:grid-cols-2 tb:grid-rows-2 ltb:grid-cols-3 ltb:grid-rows-1 tb:grid-rows-1"
+          >
+            <div
+              class="tb:px-[20px] tb:border-l-[1px] tb:border-l-black_text-500 ds:px-[30px] card"
+            >
+              <p
+                class="card__point font-[600] text-[24px] leading-[24px] text-black_text opacity-[50%]"
+              >
+                01
+              </p>
+              <h3
+                class="card__title mt-[40px] font-[600] text-[24px] leading-[24px] text-light_black"
+              >
+                Дизайн інтерєру
+              </h3>
+              <div class="card__img mt-[30px]">
+                <img src="./assets/images/osnovni__card-1.svg" alt="" />
+              </div>
+            </div>
+
+            <div
+              class="tb:px-[20px] tb:border-l-[1px] tb:border-l-black_text-500 ds:px-[30px] card"
+            >
+              <p
+                class="card__point font-[600] text-[24px] leading-[24px] text-black_text opacity-[50%]"
+              >
+                01
+              </p>
+              <h3
+                class="card__title mt-[40px] font-[600] text-[24px] leading-[24px] text-light_black"
+              >
+                Дизайн інтерєру
+              </h3>
+              <div class="card__img mt-[30px]">
+                <img src="./assets/images/osnovni__card-1.svg" alt="" />
+              </div>
+            </div>
+
+            <div
+              class="tb:px-[20px] tb:border-l-[1px] tb:border-l-black_text-500 ltb:border-r-black-500 ltb:border-r-[1px] ds:px-[30px] card"
+            >
+              <p
+                class="card__point font-[600] text-[24px] leading-[24px] text-black_text opacity-[50%]"
+              >
+                01
+              </p>
+              <h3
+                class="card__title mt-[40px] font-[600] text-[24px] leading-[24px] text-light_black"
+              >
+                Дизайн інтерєру
+              </h3>
+              <div class="card__img mt-[30px]">
+                <img src="./assets/images/osnovni__card-1.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- osnovni-napryamki -->
+
+    <!-- mi-zabeschemo -->
+    <section class="mi-zabeschemo bg-light_black py-[80px] tb:py-[100px] ltb:py-[]">     
+      <div class="container">
+        <div class="mi-zabeschemo__wrapper ">
+          <h2 class="text-center text-white_text text-[24px] font-[600] leading-[32.5px] tb:leading-[45px] tb:text-[36px] ltb:text-[46px] ltb:leading-[57.5px] mi-zabeschemo__title ">
+            Ми забезпечемо вас 
+          </h2>
+          <div
+            class="mi-zabeschemo__cards mt-[50px] grid grid-cols-2 grid-rows-3 gap-y-[50px] justify-between tb:grid-cols-3 tb:grid-rows-2 tb:gap-y-[60px] ltb:gap-y-[72px]"
+          >
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/room-wardrobe 1.svg" alt="" />
+              </div>
+              <h3
+                class="card__title mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Меблями
+              </h3>
+            </div>
+
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/bulb.svg" alt="" />
+              </div>
+              <h3
+                class="card__title mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Освітленням
+              </h3>
+            </div>
+
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/burner-oven 1.svg" alt="" />
+              </div>
+              <h3
+                class="card__title mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Побутовою технікою
+              </h3>
+            </div>
+
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/door.svg" alt="" />
+              </div>
+              <h3
+                class="card__title mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Дверима
+              </h3>
+            </div>
+
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/floor 1.svg" alt="" />
+              </div>
+              <h3
+                class="card__title mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Проектуванням
+              </h3>
+            </div>
+
+            <div class="flex flex-col items-center card">
+              <div class="card__img">
+                <img src="./assets/icons/brainstorm 1.svg" alt="" />
+              </div>
+              <h3
+                class="card__title text-center mt-[15px] font-[500] text-[18px] leading-[23.4px] text-white opacity-[50%] ltb:text-[24px] ltb:leading-[31.5px]"
+              >
+                Стіновими панелями та підлоговим покриттям
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mi-zabeschemo -->
+
+    <!-- Наші-переваги -->
+    <section class="Наші-переваги">
+      <div class="container"></div>
+    </section>
+    <!-- Наші-переваги -->
+  </body>
+</html>
