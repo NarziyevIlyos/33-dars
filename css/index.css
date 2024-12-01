@@ -1,3 +1,6 @@
+img {
+  width: 100%;
+}
 .container {
   /* border: 1px solid black; */
 }
@@ -17,5 +20,21 @@
   max-width: 1600px;
   margin: auto;
   /* background-color: aqua; */
-
 }
+
+.proekt-ringo__info-desc {
+  /* position: relative;
+  left: 10px; */
+}
+.proekt-ringo__info-desc__radio-img::before {
+  content: url("../assets/icons/radio.svg");
+  position: relative;
+  top: 3px;
+  color: rgb(0, 0, 0, 0.80);
+  color: #ffffff;
+  
+}
+
+
+
+

@@ -30,6 +30,8 @@ tailwind.config = {
         light_black: "#3D4A39",
         btn_color: "#AE7B3C",
         silver: "#F3F3F3",
+        black50: "rgba(0, 0, 0, 0.2)",
+        black80: "rgba(0, 0, 0, 0.8)",
       },
       backgroundPosition: {
         "x-56": "56% center",
